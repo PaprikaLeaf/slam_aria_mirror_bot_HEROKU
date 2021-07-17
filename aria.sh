@@ -13,3 +13,4 @@ aria2c --enable-rpc --rpc-listen-all=false --rpc-listen-port=6800 --check-certif
    --max-file-not-found=5 --max-tries=20 --auto-file-renaming=true \
    --bt-enable-lpd=true --seed-time=0.01 --seed-ratio=1.0 \
    --content-disposition-default-utf8=true --http-accept-gzip=true --reuse-uri=true --netrc-path=/usr/src/app/.netrc
+   --bt-tracker=$trackers
